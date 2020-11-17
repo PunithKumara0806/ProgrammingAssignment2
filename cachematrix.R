@@ -1,8 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
-
+ 
+## makes a list of function to and stores caches
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
   getm <- function() x
@@ -12,7 +12,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Checks and returns cached value if not caches the memory and returns inverse of the matrix
 
 cacheSolve <- function(x, ...) {
     inv <- x$getinv()
